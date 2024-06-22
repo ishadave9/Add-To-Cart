@@ -1,0 +1,74 @@
+*{
+    cursor:pointer;
+    background-color:rgb(214, 239, 255);
+}
+body{
+	color: midnightBlue;
+	font-family: Helvetica Neue;
+}
+#orderTotal{
+	margin-right: 16px;
+	text-align: right;
+}
+#itemCounter{
+	position: absolute;
+	right: 105px;
+	top: 5px;
+    background:rgb(255, 155, 155);
+    color:rgb(24, 20, 20);
+    border-radius:50%;
+    padding:8px 8px ;
+}
+#basketImage{
+	position: absolute;
+	top: 20px;
+	right: 56px;
+    padding-top: 1rem;
+    
+}
+.product{
+	display: inline-block;
+	margin: 55px;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+} 
+ #orderTotal{             /*   js */
+    font-size:25px;
+}
+
+.add-to-cart-button {
+    display: block; 
+    margin: 0 auto; 
+    background-color: lightcoral; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.add-to-cart-button:hover {
+    background-color: green; 
+}
+
+/* Make the button responsive */
+@media screen and (max-width: 600px) {
+    .add-to-cart-button {
+        width: 100%; 
+    }
+}
+
+@media screen and (width: 250px) {
+     .main{
+        display:block;
+     }
+}
